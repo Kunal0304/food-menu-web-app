@@ -1,0 +1,110 @@
+
+.navbar {
+    background: #f8f8f8;
+    box-shadow: 0px 0px 3px #0000004d;
+  }
+  .top-bar-wrapper .top-bill-box {
+    box-shadow: 0px 0px 3px #0000004d;
+    border-radius: 5px;
+    font-size: var(--font12);
+    padding: 4px 8px 4px 4px;
+    margin-bottom: 0;
+    color: var(--clr-dark);
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .top-bar-wrapper {
+    background: #f8f8f8;
+    box-shadow: 0px 0px 3px #0000004d;
+  }
+  
+  .btn_moadal {
+    border: 1px solid #c52031;
+    background-color: #fff6f6;
+    border-radius: 5px;
+    color: var(--clr-dark);
+    font-size: var(--font12);
+    line-height: normal;
+    padding: 6px 12px;
+    min-width: 85px;
+  }
+  
+  #cartDetails{
+    min-height: 30vh
+  }
+  
+  
+  /* Bootom-modal */
+  .footer-tabs {
+    position: fixed;
+    background: #FDB839;
+    box-shadow: 0px -3px 10px #0000004D;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 10;
+  }
+  .cart-bottom-curv {
+    padding: 0;
+    width: 100%;
+    height: 10px;
+    /* background: url(/img/cart-bottom.png); */
+    background-size: cover;
+    position: absolute;
+    top: -7px;
+    left: 0;
+  }
+  .cart-icon-box {
+    background-color: var(--clr-white);
+    border-radius: 50%;
+    padding: 6px 7px;
+  }
+  :root {
+    --clr-white: #ffffff;
+    --font10: 10px;
+    --font12: 12px;
+    --font16: 16px;
+    --clr-primary-light: #FFF6F6;
+    --clr-primary: #C52031;
+    --clr-dark: #373737;
+    --clr-yellow: #F8C400;
+  }
+  .cart-bottom .cart-total-sub {
+    font-weight: 500;
+    font-size: var(--font16);
+  }
+  .cart-bottom .cart-total-note {
+    font-size: var(--font10);
+    display: block;
+  }
+  .cart-bottom .item-cart-text {
+    font-size: var(--font10);
+    margin-bottom: 5px;
+  }
+  .cart-bottom .view-order-btn {
+    background: #FFEFB3;
+    font-size: var(--font12);
+    color: var(--clr-dark);
+    font-weight: 500;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    border-radius: 6px;
+  }
+  
+
+  .back-btn {
+    position: fixed;
+    right: 0;
+    background: var(--clr-yellow);
+    border-radius: 17px 0px 0px 17px;
+    font-size: var(--font12);
+    top: 130px;
+    z-index: 1;
+    padding: 5px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  
+  
+  
+  

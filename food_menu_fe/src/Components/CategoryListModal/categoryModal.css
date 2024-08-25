@@ -1,0 +1,21 @@
+.sidebar-mobile-btn {
+    color: var(--clr-white);
+    font-weight: 500;
+    font-size: var(--font13);
+    position: fixed;
+    bottom: 75px;
+    right: 25px;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  .cross-btn {
+    color: var(--clr-white);
+    font-weight: 500;
+    font-size: var(--font13);
+    position: fixed;
+    top: 7px;
+    left: 235px;
+    padding: 0;
+    text-decoration: none;
+  }

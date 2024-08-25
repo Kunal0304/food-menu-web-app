@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foodmenus",
+  "info": {
+    "singularName": "foodmenu",
+    "pluralName": "foodmenus",
+    "displayName": "Foodmenu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "foodmenus"
+    },
+    "price": {
+      "required": false,
+      "type": "biginteger"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+
+.navbar {
+  background: #f8f8f8;
+  box-shadow: 0px 0px 3px #0000004d;
+}
+.top-bar-wrapper .top-bill-box {
+  box-shadow: 0px 0px 3px #0000004d;
+  border-radius: 5px;
+  font-size: var(--font12);
+  padding: 4px 8px 4px 4px;
+  margin-bottom: 0;
+  color: var(--clr-dark);
+  font-weight: 500;
+  text-decoration: none;
+}
+.top-bar-wrapper {
+  background: #f8f8f8;
+  box-shadow: 0px 0px 3px #0000004d;
+}
+
+.btn_moadal {
+  border: 1px solid #c52031;
+  background-color: #fff6f6;
+  border-radius: 5px;
+  color: var(--clr-dark);
+  font-size: var(--font12);
+  line-height: normal;
+  padding: 6px 12px;
+  min-width: 85px;
+}
+
+#cartDetails{
+  min-height: 30vh
+}
+
+
+/* Bootom-modal */
+.footer-tabs {
+  position: fixed;
+  background: #FDB839;
+  box-shadow: 0px -3px 10px #0000004D;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  z-index: 10;
+}
+.cart-bottom-curv {
+  padding: 0;
+  width: 100%;
+  height: 10px;
+  background: url(/img/cart-bottom.png);
+  background-size: cover;
+  position: absolute;
+  top: -7px;
+  left: 0;
+}
+.cart-icon-box {
+  background-color: var(--clr-white);
+  border-radius: 50%;
+  padding: 6px 7px;
+}
+:root {
+  --clr-white: #ffffff;
+  --font10: 10px;
+  --font12: 12px;
+  --font16: 16px;
+  --clr-primary-light: #FFF6F6;
+  --clr-primary: #C52031;
+  --clr-dark: #373737;
+}
+.cart-bottom .cart-total-sub {
+  font-weight: 500;
+  font-size: var(--font16);
+}
+.cart-bottom .cart-total-note {
+  font-size: var(--font10);
+  display: block;
+}
+.cart-bottom .item-cart-text {
+  font-size: var(--font10);
+  margin-bottom: 5px;
+}
+.cart-bottom .view-order-btn {
+  background: #FFEFB3;
+  font-size: var(--font12);
+  color: var(--clr-dark);
+  font-weight: 500;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+
+
+
+
+ 
+/* CSS for modal-view order styling */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1060;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  outline: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); /* Fallback color with transparency */
+}
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+.d-flex {
+  display: flex!important;
+}
+
+/* Close button styles */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal.fade .modal-dialog {
+  transition: none;
+}
+.modal.show .modal-dialog {
+  transform: none;
+}
+
+.modal-dialog.order-summary-pop-wrapper {
+  opacity: 1;
+  max-height: 91vh;
+  position: absolute;
+  bottom: 74px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: inherit;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+
+
+

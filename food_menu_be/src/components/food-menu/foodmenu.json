@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_food_menu_foodmenus",
+  "info": {
+    "displayName": "category",
+    "icon": "folder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
